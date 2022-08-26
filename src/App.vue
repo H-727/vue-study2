@@ -1,9 +1,16 @@
 <template>
-  <div id="app"></div>
+  <div>
+    <my-product message="我是爸爸"> </my-product>
+  </div>
 </template>
 
 <script>
-export default {};
+import MyProduct from "@/components/Myproduct.vue";
+export default {
+  components: {
+    MyProduct,
+  },
+};
 </script>
 
-<style lang="less"></style>
+<style scoped></style>
